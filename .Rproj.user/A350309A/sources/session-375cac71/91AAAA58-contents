@@ -1,0 +1,287 @@
+library(zen4R)
+zenodo <- ZenodoManager$new()
+zenodo <- ZenodoManager$new(
+  token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+  logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+)
+my_zenodo_records <- zenodo$getDepositions()
+#my_rec <- zenodo$getDepositionById()
+
+myrec <- zenodo$createEmptyRecord()
+# myrec <- ZenodoRecord$new()
+# myrec$setTitle("OpDEA raw quantification outputs")
+# myrec$setDescription("The data includes outputs from FragPipe, Maxquant, DIA-NN and Spectronaut")
+# myrec$setUploadType("dataset")
+# myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "NTU", orcid = "0000-0002-5137-1827")
+# #myrec$setLicense("Creative Commons Attribution 4.0 International")
+# myrec$setAccessRight("open")
+# #myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+# #myrec$addCommunity("")
+# myrec <- zenodo$depositRecord(myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DIA/MYtims709_DIA/MYtims709_DIA_DIA-NN.zip", record = myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DIA/HEof_n600_DIA.zip", record = myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DIA/HEof_w600_DIA.zip", record = myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DIA/HEqe408_DIA.zip", record = myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DIA/HEqe777_DIA.zip", record = myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DIA/HYEtims735_DIA.zip", record = myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DIA/HYtims134_DIA.zip", record = myrec)
+#
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/DDA.zip", record = myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/TMT.zip", record = myrec)
+#
+#
+#
+# myrec <- zenodo$createEmptyRecord()
+# myrec <- ZenodoRecord$new()
+# myrec$setTitle("OpDEA expression matrices")
+# myrec$setDescription("The data includes expression matrices extracted from raw outputs of FragPipe, Maxquant, DIA-NN and Spectronaut")
+# myrec$setUploadType("dataset")
+# myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "NTU", orcid = "0000-0002-5137-1827")
+# #myrec$setLicense("Creative Commons Attribution 4.0 International")
+# myrec$setAccessRight("open")
+# #myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+# #myrec$addCommunity("")
+# myrec <- zenodo$depositRecord(myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/quant_table/expression_matrices.zip", record = myrec)
+#
+#
+# myrec <- zenodo$createEmptyRecord()
+# myrec <- ZenodoRecord$new()
+# myrec$setTitle("OpDEA benchmarking_results")
+# myrec$setDescription("The data includes bechmaeking results of workflows under different settings including rankings and detail metric values")
+# myrec$setUploadType("dataset")
+# myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "NTU", orcid = "0000-0002-5137-1827")
+# #myrec$setLicense("Creative Commons Attribution 4.0 International")
+# myrec$setAccessRight("open")
+# #myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+# #myrec$addCommunity("")
+# myrec <- zenodo$depositRecord(myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/quant_table/benchmarking_results.zip", record = myrec)
+#
+# library(zen4R)
+# zenodo <- ZenodoManager$new()
+# myrec <- zenodo$createEmptyRecord()
+# myrec <- ZenodoRecord$new()
+# myrec$setTitle("OpDEA standalone toolkit version2")
+# myrec$setDescription("This standalone tool can be used to conduct proteomics data differential expression analysis
+#                       with suggested workflows. Or it can be used to help users to design their own workflow.
+#                      This is an updated version for replacing older data files.")
+# myrec$setUploadType("dataset")
+# myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "NTU", orcid = "0000-0002-5137-1827")
+# #myrec$setLicense("Creative Commons Attribution 4.0 International")
+# myrec$setAccessRight("open")
+# #myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+# #myrec$addCommunity("")
+# myrec <- zenodo$depositRecord(myrec)
+# zenodo$uploadFile("D:/data/benchmark/all_data/download/OpDEA_v2.zip", record = myrec)
+# install.packages(
+#        pkgs = 'E:/proteomics/maus2/submission/submission/final/upload/OpDEA/server/eblondel-zen4R-v0.10-0-g51474b2.tar.gz',
+#        lib = .libPaths()[length(.libPaths())],
+#        repos = NULL, # 这个参数一定要的
+#        dependencies = T
+#    )
+# install.packages("remotes")
+# require("remotes")
+# install_github("eblondel/zen4R")
+
+# library(zen4R)
+# zenodo <- ZenodoManager$new()
+# zenodo <- ZenodoManager$new(
+#   token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+#   logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+# )
+# my_zenodo_records <- zenodo$getDepositions()
+# #zenodo <- ZenodoManager$new()
+# myrec <- zenodo$createEmptyRecord()
+# myrec <- ZenodoRecord$new()
+# myrec$setTitle("Example view data for running M-VIDIA")
+# myrec$setDescription("We provide three example data for running MVIDIA-DEA (views.zip),
+#                      MVIDIA-Patient Diagnosis (train.zip, test.zip) and for MVIDIA-Cell Clustering (sc.zip).
+#                      If each data can only be used for its corresponding task as the data
+#                      should be organized in the correct formats. Please visit our
+#                      webserver (http://www.ai4pro.tech:3838/) to learn more about our M-VIDIA.")
+# myrec$setUploadType("dataset")
+# myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Nanyang Technological University", orcid = "0000-0002-5137-1827")
+# myrec$setLicense("mit")
+# #myrec$setAccessRight("open")
+# #myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+# #myrec$addCommunity("")
+# myrec <- zenodo$depositRecord(myrec)
+# zenodo$uploadFile("E:/proteomics/maus2/submission/submission/final/upload/OpDEA/server/Example_data.zip", record = myrec)
+#
+#
+# library(zen4R)
+# zenodo <- ZenodoManager$new()
+# zenodo <- ZenodoManager$new(
+#   token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+#   logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+# )
+# my_zenodo_records <- zenodo$getDepositions()
+# #zenodo <- ZenodoManager$new()
+# myrec <- zenodo$createEmptyRecord()
+# myrec <- ZenodoRecord$new()
+# myrec$setTitle("Datasets used for case studies in M-VIDIA paper")
+# myrec$setDescription("We provide the extracted view data from the datasets we used for our case studies.
+#                      There are three datasets, including the Thyroid Nodule Classification (TNC) dataset,
+#                      the Single Mouse Oocytes (SMO) dataset, and the Pick-up Single-cell Proteomic Analysis (PiSPA) dataset.
+#                      The TNC dataset is used to test the performance of applying M-VIDIA
+#                      for patient diagnosis. The SMO and PiSPA are used to test the performance
+#                       of M-VIDIA in cell clustering.")
+# myrec$setUploadType("dataset")
+# myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Nanyang Technological University", orcid = "0000-0002-5137-1827")
+# myrec$setLicense("mit")
+# #myrec$setAccessRight("open")
+# #myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+# #myrec$addCommunity("")
+# myrec <- zenodo$depositRecord(myrec)
+# zenodo$uploadFile("E:/proteomics/maus2/submission/submission/final/upload/OpDEA/server/case_study_data.zip", record = myrec)
+
+#install.packages('zen4R')
+library(zen4R)
+zenodo <- ZenodoManager$new()
+zenodo <- ZenodoManager$new(
+  token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+  logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+)
+my_zenodo_records <- zenodo$getDepositions()
+#zenodo <- ZenodoManager$new()
+myrec <- zenodo$createEmptyRecord()
+myrec <- ZenodoRecord$new()
+myrec$setTitle("Example raw quantification outputs used for extracting view data")
+myrec$setDescription("This data contains the raw quantification outputs from platforms
+                     FragPipe, Maxquant, DIA-NN and Spectronaut. We use them as inputs
+                     for extracting view data serving as inputs to our newly designed
+                     multi-view proteomics framework.")
+myrec$setUploadType("dataset")
+myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Nanyang Technological University", orcid = "0000-0002-5137-1827")
+myrec$setLicense("mit")
+#myrec$setAccessRight("open")
+#myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+#myrec$addCommunity("")
+myrec <- zenodo$depositRecord(myrec)
+zenodo$uploadFile("E:/proteomics/maus2/submission/submission/final/upload/OpDEA/server/Example_data/Example_view_extraction_data.zip", record = myrec)
+
+
+library(zen4R)
+zenodo <- ZenodoManager$new()
+zenodo <- ZenodoManager$new(
+  token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+  logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+)
+my_zenodo_records <- zenodo$getDepositions()
+#zenodo <- ZenodoManager$new()
+myrec <- zenodo$createEmptyRecord()
+myrec <- ZenodoRecord$new()
+myrec$setTitle("OpDEA standalone toolkit version 3 (with M-VIDIA)")
+myrec$setDescription("This is the version 3 of our OpDEA standalone toolkit which has integrated our
+                     newly designed multi-view learning based proteomics data analysis framework M-VIDIA.
+                     The toolkit can be run on a machine with Windows os (not available for other OS).
+                     We recommend using this standalone toolkit instead of our webserver for proteomics
+                     data analysis as no data is needed to uploaded to the server and you can run it
+                     on your own machine.")
+myrec$setUploadType("software")
+myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Nanyang Technological University", orcid = "0000-0002-5137-1827")
+myrec$setLicense("mit")
+#myrec$setAccessRight("open")
+#myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+#myrec$addCommunity("")
+myrec <- zenodo$depositRecord(myrec)
+zenodo$uploadFile("E:/proteomics/maus2/submission/submission/final/upload/OpDEA/offline/OpDEA_v3/OpDEA.zip", record = myrec)
+
+library(zen4R)
+zenodo <- ZenodoManager$new()
+zenodo <- ZenodoManager$new(
+  token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+  logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+)
+my_zenodo_records <- zenodo$getDepositions()
+#zenodo <- ZenodoManager$new()
+myrec <- zenodo$createEmptyRecord()
+myrec <- ZenodoRecord$new()
+myrec$setTitle("python environment for running python codes in M-VIDIA")
+myrec$setDescription("This file stores the python environment required by M-VIDIA for running. If your
+                     install the R package of OpDEA v2.0.0, please download this file and decompressed to
+                     your R OpDEA package installation  folder, e.g., /R/library/OpDEA/app/www/ (please copy the
+                     whole directlfq/ folder there.
+                     )")
+myrec$setUploadType("software")
+myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Nanyang Technological University", orcid = "0000-0002-5137-1827")
+myrec$setLicense("mit")
+#myrec$setAccessRight("open")
+#myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+#myrec$addCommunity("")
+myrec <- zenodo$depositRecord(myrec)
+zenodo$uploadFile("D:/Roffline/directlfq.zip", record = myrec)
+
+
+library(zen4R)
+zenodo <- ZenodoManager$new()
+zenodo <- ZenodoManager$new(
+  token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+  logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+)
+my_zenodo_records <- zenodo$getDepositions()
+#zenodo <- ZenodoManager$new()
+myrec <- zenodo$createEmptyRecord()
+myrec <- ZenodoRecord$new()
+myrec$setTitle("Source codes for reproducing results")
+myrec$setDescription("This file stores the source codes for reproducing the results shown in
+  figures and tables in our M-VIDIA paper. The detailed steps for reproducing can be found in
+  the ReadMe.md file.)")
+myrec$setUploadType("software")
+myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Nanyang Technological University", orcid = "0000-0002-5137-1827")
+myrec$setLicense("mit")
+#myrec$setAccessRight("open")
+#myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+#myrec$addCommunity("")
+myrec <- zenodo$depositRecord(myrec)
+zenodo$uploadFile("D:Roffline/MVIDIA/MVIDIA_results_reproducing.zip", record = myrec)
+
+
+#########################################
+### MCP
+
+library(zen4R)
+zenodo <- ZenodoManager$new()
+zenodo <- ZenodoManager$new(
+  token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+  logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+)
+my_zenodo_records <- zenodo$getDepositions()
+#zenodo <- ZenodoManager$new()
+myrec <- zenodo$createEmptyRecord()
+myrec <- ZenodoRecord$new()
+myrec$setTitle("View files used in MCP paper")
+myrec$setDescription("The view files and design files used in our benchmarking and case studies.)")
+myrec$setUploadType("data")
+myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Shenzhen University of Advanced Technology", orcid = "0000-0002-5137-1827")
+myrec$setLicense("mit")
+#myrec$setAccessRight("open")
+#myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+#myrec$addCommunity("")
+myrec <- zenodo$depositRecord(myrec)
+zenodo$uploadFile("E:/proteomics/mauns4_3/Submission/Result_reproducing/views_MCP.zip", record = myrec)
+
+## https://zenodo.org/records/19469151
+
+
+library(zen4R)
+zenodo <- ZenodoManager$new()
+zenodo <- ZenodoManager$new(
+  token = 'ZHXsp9LjpNNLQooKiywbONNaB5NTAXMYiSKwxkUj7itC72G2zxZQWvr6rahh',
+  logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
+)
+my_zenodo_records <- zenodo$getDepositions()
+#zenodo <- ZenodoManager$new()
+myrec <- zenodo$createEmptyRecord()
+myrec <- ZenodoRecord$new()
+myrec$setTitle("OpDEA-MCP")
+myrec$setDescription("The offline toolkit of OpDEA-MCP.)")
+myrec$setUploadType("software")
+myrec$addCreator(firstname = "Hui", lastname = "Peng", affiliation = "Shenzhen University of Advanced Technology", orcid = "0000-0002-5137-1827")
+myrec$setLicense("mit")
+#myrec$setAccessRight("open")
+#myrec$setDOI("10.5281/zenodo.10478565") #use this method if your DOI has been assigned elsewhere, outside Zenodo
+#myrec$addCommunity("")
+myrec <- zenodo$depositRecord(myrec)
+zenodo$uploadFile("E:/proteomics/mauns4_3/Submission/tool/offline/OpDEA-MCP.zip", record = myrec)

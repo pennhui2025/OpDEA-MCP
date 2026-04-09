@@ -1,0 +1,26 @@
+{
+    "id": "F03170C4",
+    "path": "E:/proteomics/mauns4_3/Submission/tool/OpDEA-main/R/Data_access.R",
+    "project_path": "R/Data_access.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1775210299478.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "142,57",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1775644371,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1775644371326,
+    "read_only": false,
+    "read_only_alternatives": []
+}

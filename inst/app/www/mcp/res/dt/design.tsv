@@ -1,0 +1,7 @@
+file	sample	sample_name	condition	replicate
+E:\MS_data\PXD026600\RD139_Raw_files_DIA_Narrow\RD139_Narrow_UPS1_0_25fmol_inj1.mzML	B1	B1	B	1
+E:\MS_data\PXD026600\RD139_Raw_files_DIA_Narrow\RD139_Narrow_UPS1_0_25fmol_inj2.mzML	B2	B2	B	2
+E:\MS_data\PXD026600\RD139_Raw_files_DIA_Narrow\RD139_Narrow_UPS1_0_25fmol_inj3.mzML	B3	B3	B	3
+E:\MS_data\PXD026600\RD139_Raw_files_DIA_Narrow\RD139_Narrow_UPS1_5fmol_inj1.mzML	E1	E1	E	1
+E:\MS_data\PXD026600\RD139_Raw_files_DIA_Narrow\RD139_Narrow_UPS1_5fmol_inj2.mzML	E2	E2	E	2
+E:\MS_data\PXD026600\RD139_Raw_files_DIA_Narrow\RD139_Narrow_UPS1_5fmol_inj3.mzML	E3	E3	E	3

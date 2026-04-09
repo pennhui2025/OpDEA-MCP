@@ -1,0 +1,26 @@
+{
+    "id": "C37403CC",
+    "path": "E:/proteomics/mauns4_3/Submission/tool/OpDEA-main/R/tabMVIDIA_simp.R",
+    "project_path": "R/tabMVIDIA_simp.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1775222643391.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "17,12",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1775355654,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1775355654544,
+    "read_only": false,
+    "read_only_alternatives": []
+}
