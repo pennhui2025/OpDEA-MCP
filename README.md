@@ -94,12 +94,11 @@ At last, the shiny app can be launched via:
 If success, the page showing the introduction of our OpDEA will be presented. It can be used according to the contents in the help page.
 
 ## source codes for proteomics data differential expression analysis workflow benchmarking
-The python and R source codes for benchmarking proteomics data differential expression analysis workflows are located in the folder **"codes_DEA_benchmarking"**.
-Please read the **"README"** file inside the **"codes_DEA_benchmarking"** folder to find how to reproduce our benchmarking results.
+To find the python and R source codes for benchmarking proteomics data differential expression analysis workflows, please visit https://github.com/PennHui2016/OpDEA.
 
 ## source codes for regenerating the figures in our paper
-The R codes for regenerating our figures in our paper can be found in the folder **"code_generate_figures"**. Please read the 
-**"README"** file inside the **"code_generate_figures"** folder to find how to regenerate our figures.
+The R codes for regenerating our figures in our paper can be found in **"Codes_for_reproducing_results.zip"**. Please read the 
+**"README"** file inside the **"Codes_for_reproducing_results"** folder to find how to regenerate our figures.
 
 ## Cite this article
 Hui Peng, He Wang, Weijia Kong, Jinyan Li*, Wilson Wen Bin Goh*. (2024). Optimizing Differential Expression Analysis for Proteomics Data via High-Performing Rules and Ensemble Inference.
@@ -109,5 +108,5 @@ Hui Peng, Wilson Wen Bin Goh*. (2024). M-VIDIA: A Multi-View representation to I
 ## Contact
 Any problems or requesting source codes for reproducing results in our paper please contact
 
-    Hui Peng: penghui@suat-sz.edu.cn;  Wilson Wen Bin Goh: wilsongoh@ntu.edu.sg
+    Hui Peng: penghui@suat-sz.edu.cn;  Jinyan Li: lijinyan@suat-sz.edu.cn; Wilson Wen Bin Goh: wilsongoh@ntu.edu.sg
 
