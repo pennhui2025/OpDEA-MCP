@@ -1,7 +1,7 @@
 # OpDEA-MCP
 The newest version OpDEA with a new multi-view proteomics DEA tool enabled
 
-OOpDEA-MCP is a R shiny application for:
+OpDEA-MCP is a R shiny application for:
 1. presenting results of our benchmarking of proteomics data differential expression analysis workflow;
 2. guiding users to select optimal workflows for analyzing their proteomics data;
 3. For analyzing the user's proteomics data with traditional DEA tools or our Multi-view Proteomics tools including MCP and MVIDIA; 
@@ -13,7 +13,7 @@ see http://www.ai4pro.tech:3838/. The webserver requires uploading expression da
 standalone toolkit (available at: https://zenodo.org/records/19477436, no R package needs to be installed and no need to upload data,
 just decompress it and use it) instead. If you still hope to try our R package, please see  following installation instructions.
 
-## Requirements for installation of OpDEA
+## Requirements for installation of OpDEA-MCP
 You should install the following packages with the same versionor higher:
 
 R base: R-4.2.0;
@@ -102,6 +102,7 @@ The R codes for regenerating our figures in our paper can be found in **"Codes_f
 
 ## Cite this article
 Hui Peng, He Wang, Weijia Kong, Jinyan Li*, Wilson Wen Bin Goh*. (2024). Optimizing Differential Expression Analysis for Proteomics Data via High-Performing Rules and Ensemble Inference.
+
 Hui Peng, Hexin Cai, Shifu Luo, Jinyan Li*, Wilson Wen Bin Goh*. (2026). Mutual complementarity maximization in multi-view proteomics enables robust biomarker prediction.
 Hui Peng, Wilson Wen Bin Goh*. (2024). M-VIDIA: A Multi-View representation to Increase modality Depth using Integrative AI.
  
