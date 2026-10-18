@@ -72,7 +72,7 @@ It can be installed via two ways:
 Then, the package can be installed from github via the following code:
 
     library(devtools)
-    install_github('PennHui2016/OpDEA')
+    install_github('PennHui2025/OpDEA-MCP')
 	
 	if you install the package in this way, you should also download the "app.zip" from 
 	zenodo https://zenodo.org/records/19477614 and unzip it (you'll get a folder "app/"). Then, please
@@ -94,7 +94,7 @@ At last, the shiny app can be launched via:
 If success, the page showing the introduction of our OpDEA will be presented. It can be used according to the contents in the help page.
 
 ## source codes for proteomics data differential expression analysis workflow benchmarking
-To find the python and R source codes for benchmarking proteomics data differential expression analysis workflows, please visit https://github.com/PennHui2016/OpDEA.
+To find the python and R source codes for benchmarking proteomics data differential expression analysis, please visit https://github.com/PennHui2025/OpDEA-MCP.
 
 ## source codes for regenerating the figures in our paper
 The R codes for regenerating our figures in our paper can be found in **"Codes_for_reproducing_results.zip"**. Please read the 
@@ -103,7 +103,7 @@ The R codes for regenerating our figures in our paper can be found in **"Codes_f
 ## Cite this article
 Hui Peng, He Wang, Weijia Kong, Jinyan Li*, Wilson Wen Bin Goh*. (2024). Optimizing Differential Expression Analysis for Proteomics Data via High-Performing Rules and Ensemble Inference.
 
-Hui Peng, Hexin Cai, Shifu Luo, Jinyan Li*, Wilson Wen Bin Goh*. (2026). Mutual complementarity maximization in multi-view proteomics enables robust biomarker prediction.
+Hui Peng, Hexin Cai, Shifu Luo, Jinyan Li*, Wilson Wen Bin Goh*. (2026). Mutual complementarity maximization in multi-view proteomics enables robust differential protein prioritization.
 Hui Peng, Wilson Wen Bin Goh*. (2024). M-VIDIA: A Multi-View representation to Increase modality Depth using Integrative AI.
  
 ## Contact
